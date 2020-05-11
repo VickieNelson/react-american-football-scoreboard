@@ -19,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
+  background-color: greenyellow;
 }
 
 code {
@@ -27,15 +28,18 @@ code {
 }
 
 button {
-  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
   border: none;
   padding: 1rem 2rem;
   margin: 0;
   text-decoration: none;
-  background: #414141;
+  background: green;
   color: #ffffff;
+  border: 3px dotted orange;
   font-family: inherit;
   font-size: 1.6rem;
+  font-weight: bold;
   cursor: pointer;
   text-align: center;
   transition: background 250ms ease-in-out, transform 150ms ease;
