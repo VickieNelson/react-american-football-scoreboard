@@ -51,7 +51,7 @@ function App() {
             Reset Home
           </button>
         </div>
-{/* 
+
         <div className="awayButtons">
           <button
             onClick={() => setCountAway(countAway + 7)}
@@ -71,7 +71,7 @@ function App() {
             onClick={() => setCountAway(0)}
             className="awayButtons__touchdown"
           >
-            Reset Away */}
+            Reset Away
           </button>
         </div>
       </section>
